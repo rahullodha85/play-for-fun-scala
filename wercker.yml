@@ -24,3 +24,10 @@ build:
         name: echo
         code: |
           echo "hello world!"
+
+test:
+  steps:
+  - script:
+      name: unit tests
+      code: |
+        "sbt test"
