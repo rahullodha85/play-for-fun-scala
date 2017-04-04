@@ -30,4 +30,4 @@ test:
   - script:
       name: unit tests
       code: |
-        "sbt test"
+        ./sbt test
