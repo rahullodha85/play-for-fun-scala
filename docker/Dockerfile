@@ -1,5 +1,4 @@
 FROM  library/amazonlinux
-FROM  openjdk:8
 
 ENV SCALA_VERSION 2.12.1
 ENV SBT_VERSION 0.13.13
